@@ -77,6 +77,15 @@
     </dependencies>
 
     <build>
+        <!-- TOTO JE DOLEŽITÁ SEKCIÁ! -->
+        <resources>
+
+                <resource>
+                    <directory>src/main/resources</directory>
+                    <filtering>true</filtering>
+                </resource>
+
+        </resources>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -117,3 +126,4 @@
         </plugins>
     </build>
 </project>
+
